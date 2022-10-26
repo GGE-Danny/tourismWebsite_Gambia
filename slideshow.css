@@ -1,0 +1,41 @@
+*{
+    background-color: gray;
+}
+
+.d{
+    width: 30%;
+    height: 200px;
+    background-image: url(hotel1.jpeg);
+    box-shadow: 1px 2px 10px 5px white;
+    animation: super 14s infinite linear;
+}
+
+@keyframes super {
+    0%{
+        background-image: url(hotel.jpeg);
+    }
+
+    20%{
+        background-image: url(hotel2.jpeg);
+    }
+    
+}
+
+.e{
+    transform: translate(90px,87px);
+    width: 30%;
+    height: 200px;
+    background-image: url(Dish.jpeg);
+    box-shadow: 1px 2px 10px 5px white;
+    animation: soid 14s infinite linear;
+}
+
+@keyframes soid {
+    20%{
+        background-image: url(Dish1.jpeg);
+    }
+    40%{
+        background-image: url(Dish2.jpeg);
+    }
+    
+}
